@@ -9,7 +9,7 @@ spoke-networks/
 ├── modules/                  # Reusable Terraform modules for network components
 │   ├── vnet/               # Module to create a VNet
 │   └── subnet/             # Module to create a subnet
-└── environments/             # Environment-specific configurations (dev, test, prod)
+└── environments/             # Environment-specific configurations (devtest, staging-UAT, prod)
     └── <environment>/        # e.g., dev, test, prod
         └── <project or solution>/ # e.g., vmworkstations, myapp
           ├── main.tf       # Terraform code to create spoke network resources
